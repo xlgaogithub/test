@@ -64,4 +64,3 @@ public class EnumTest {
             System.out.println(o + " costs " + o.getPrice() + " cents.");
     }
 }
-Contact GitHub 
