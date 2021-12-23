@@ -1,0 +1,40 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        // {
+        //     "name": "Launch Edge",
+        //     "request": "launch",
+        //     "type": "pwa-msedge",
+        //     "url": "http://localhost:8800",
+        //     "webRoot": "${workspaceFolder}"
+        // },
+        // {
+        //     "name": "Attach to Chrome",
+        //     "port": 9222,
+        //     "request": "attach",
+        //     "type": "pwa-chrome",
+        //     "webRoot": "${workspaceFolder}"
+        // },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Root",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\destruct.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch YDKJS Book 1",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\YDKJS\\Book1\\prototype.js"
+        }
+    ]
+}
