@@ -20,5 +20,4 @@ function User() {
 
 // create a `User` module instance
 var fred = User();
-
 fred.login("fred", "12Battery34!");

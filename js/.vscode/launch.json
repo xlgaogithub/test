@@ -35,6 +35,24 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}\\YDKJS\\Book1\\prototype.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch YDKJS Book 2",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\YDKJS\\Book2\\module.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch YDKJS Book 3",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\YDKJS\\Book3\\partial_currying.js"
         }
     ]
 }
